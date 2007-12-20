@@ -5,7 +5,7 @@ VER_LONG="0.7.$REV"
 DIR="btanks-$VER_LONG"
 echo "revision $REV"
 echo "cleaning up..."
-rm -rf ../$DIR
+rm -rf $DIR
 echo "exporting..."
 svn export trunk $DIR
 echo -n $VER > $DIR/.svnversion
