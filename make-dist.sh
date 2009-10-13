@@ -1,7 +1,7 @@
 #!/bin/sh
 VER=`svnversion -cn trunk`
 REV=`echo "$VER" | cut -d: -f 2`
-VER_LONG="0.8.$REV"
+VER_LONG="0.9.$REV"
 DIR="btanks-$VER_LONG"
 echo "revision $REV"
 echo "cleaning up..."
